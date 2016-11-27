@@ -71,13 +71,13 @@ header#navbar {
 .column-left{
   width: 700px;
   background-color: #f0efef;
-  height: 800px;
+  height: 1300px;
   float: left; 
   padding-left: 20px;
 }
 .column-right {
   width: 260px;
-  height: 800px;
+  height: 1300px;
   float: left;
   background-color: #f0efef; 
 }
@@ -91,14 +91,14 @@ header#navbar {
 }
 
 .left-wrap {
-  width: 550px;
+  width: 650px;
 }
 
 img {
   height: auto; 
   width: auto; 
-  max-width: 550px; 
-  max-height: 550px;
+  max-width: 650px; 
+  max-height: 650px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -129,20 +129,59 @@ img {
 }
 
 .blog-text-footer:hover {
-  color: #121212;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #033048;
+  font-size: 10px;
 }
 
-.line {
+.line-1 {
   height: 2px;
-  width: 550px;
+  width: 650px; 
   background-color: #033048; 
   margin-top: 20px;
 }
 
+.line-2 {
+  height: 2px;
+  width: 220px; 
+  background-color: #033048; 
+  margin-top: 20px;
+}
+
+.right-wrap {
+  width: 180px;
+}
+
+.categories {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #033048;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.category-list {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #033048;
+  font-size: 15px;
+  padding-top: 10px;
+  line-height: 1.4; 
+}
+
+.category-list ul li:hover {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #033048;
+  font-size: 15px;
+}
+
 
 /******************************************
-/* ADDITIONAL STYLES
+/* Header and Footer
 /*******************************************/
+
 .navbar-left {
   float: left;
 }
