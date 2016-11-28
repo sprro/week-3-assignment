@@ -150,7 +150,7 @@ img {
 }
 
 .right-wrap {
-  width: 180px;
+  width: 220px;
 }
 
 .categories {
@@ -175,6 +175,14 @@ img {
   font-weight: 600;
   color: #033048;
   font-size: 15px;
+}
+
+.about p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #606161;
+  font-size: 14px;
+  padding-top: 10px;
 }
 
 
