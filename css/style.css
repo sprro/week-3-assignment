@@ -71,13 +71,13 @@ header#navbar {
 .column-left{
   width: 700px;
   background-color: #f0efef;
-  height: 1300px;
+  height: 1250px;
   float: left; 
   padding-left: 20px;
 }
 .column-right {
   width: 260px;
-  height: 1300px;
+  height: 1250px;
   float: left;
   background-color: #f0efef; 
 }
@@ -87,7 +87,7 @@ header#navbar {
   font-weight: 600;
   color: #033048;
   font-size: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .left-wrap {
@@ -109,7 +109,7 @@ img {
   font-weight: 600;
   color: #606161;
   font-size: 40px;
-  padding-right: 10px;  
+  padding-right: 5px;  
 }
 
 .blog-text {
@@ -117,6 +117,7 @@ img {
   font-weight: 300;
   color: #606161;
   font-size: 15px;
+  line-height: 1.5;
 }
 
 .blog-text-footer {
@@ -144,13 +145,13 @@ img {
 
 .line-2 {
   height: 2px;
-  width: 220px; 
+  width: 240px; 
   background-color: #033048; 
   margin-top: 20px;
 }
 
 .right-wrap {
-  width: 220px;
+  width: 240px;
 }
 
 .categories {
@@ -158,7 +159,7 @@ img {
   font-weight: 800;
   color: #033048;
   font-size: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .category-list {
@@ -183,6 +184,37 @@ img {
   color: #606161;
   font-size: 14px;
   padding-top: 10px;
+  line-height: 1.5;
+}
+
+p.learn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #033048;
+  font-size: 14px;
+}
+
+p.learn:hover {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #033048;
+  font-size: 14px;
+}
+
+.ad {
+  margin-top: 30px;
+  background-color: white; 
+  width: 240px;
+  height: 230px;
+}
+
+.ad h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #121212;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
 }
 
 
