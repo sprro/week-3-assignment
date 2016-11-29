@@ -47,7 +47,7 @@ Developer @GA in NYC
 body {
      color: #000;
      font-size: 12px;
-     line-height: 1.2;
+     line-height: 0.5;
      background-color: #e5e5e5; 
 }
 
@@ -88,6 +88,7 @@ header#navbar {
   color: #033048;
   font-size: 30px;
   padding-top: 30px;
+  line-height: 1.2; 
 }
 
 .left-wrap {
@@ -106,10 +107,11 @@ img {
 .blog-text-big {
   float: left;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   color: #606161;
-  font-size: 40px;
-  padding-right: 5px;  
+  font-size: 60px;
+  padding-right: 5px; 
+  padding-top: 15px; 
 }
 
 .blog-text {
@@ -118,6 +120,7 @@ img {
   color: #606161;
   font-size: 15px;
   line-height: 1.5;
+
 }
 
 .blog-text-footer {
@@ -160,6 +163,7 @@ img {
   color: #033048;
   font-size: 30px;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .category-list {
